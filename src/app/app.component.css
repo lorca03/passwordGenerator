@@ -1,0 +1,91 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    background: linear-gradient(to right, #000046, #1CB5E0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.bottomBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    gap: 20px;
+}
+
+.password-output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+    pointer-events: none;
+    border: none;
+    background-color: #00b36e;
+    color: white;
+    font-size: xx-large;
+}
+
+.words-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.controlers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.controlers label {
+    color: #00b36e;
+    font-size: 40px;
+}
+
+.clipboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
